@@ -56,6 +56,10 @@ Clicked on Ad Boolean Whether the customer clicks
 on the ad or not
 
 **1. Daily Time Spent on Site vs Age**
+
+
+![image](https://user-images.githubusercontent.com/122759737/214117604-8c91567e-99de-4641-b612-313c232c8b3a.png)
+
 We can see that a large number of people under
 the age of 30 spend the most time on the internet, which is more
 than 80 minutes. We can also see that the second-highest age
@@ -64,6 +68,10 @@ the internet. We can estimate that we should target a group of
 people in their 30s and 40s based on this information.
 
 **2. Area Income versus Age**
+
+
+![image](https://user-images.githubusercontent.com/122759737/214117616-f5811ea1-2563-4c8d-b317-b6545445ab38.png)
+
 We can determine that people between the
 age range of mid 20’s to their late 30’s who have an income
 between $50k to $70k are the ones who click on the ad the most.
@@ -71,6 +79,10 @@ Our next step should be targeting this group of people so that we
 can increase our exposure as much as possible.
 
 **3. Daily Time Spent on Site vs Daily Internet Usage**
+
+
+![image](https://user-images.githubusercontent.com/122759737/214117632-4da7cc43-4bf1-4abc-9a13-05a3eef64799.png)
+
 We can see there are 2 major groups of points
 which we can target. One of them is between daily usage of 100
 to 125 mins when the daily time spent on the specific site is
@@ -79,6 +91,9 @@ internet usage of 200 to 250 mins when the time spent on our
 site is between 70 to 90 mins
 
 **Correlation Analysis**
+
+![image](https://user-images.githubusercontent.com/122759737/214117655-e28ee16a-9c87-4a01-8c2a-2d949aba3e05.png)
+
 After importing Corrplot from Seaborn package we can
 understand the correlation between the x variables and the y
 variable i.e. - Clicked on Ad.
@@ -89,6 +104,10 @@ on the y variable and the lower correlation shows the lower
 impact of the x variables on the y variable.
 
 **Variable Selection**
+
+![image](https://user-images.githubusercontent.com/122759737/214117726-f44041ea-4ddc-48f0-a51a-e98bb8b9c319.png)
+
+
 In our dataset we have 10 variables which are as follows: Daily
 Time Spent on Site, Age, Area Income, Daily Internet Usage, Ad
 Topic Line, City, Male, Country, Timestamp, Clicked on Ad. We
@@ -105,6 +124,8 @@ values of the x variable, will highly affect the values of the y
 variable.
 
 **Final Model Description**
+
+
 For the final model we have imported a Logistic regression
 model from the from the python package, sklearn.linear_model
 for the prediction of the y variable i.e. “Clicked on Ad”. Since we
@@ -122,6 +143,10 @@ generated classification report projects the performance of the
 model.
 
 **Model Overview**
+
+![image](https://user-images.githubusercontent.com/122759737/214117887-c12c9810-f95a-422a-bbc1-49cd4dcb25bc.png)
+
+
 Step 1: We downloaded the data set from kaggle.com
 Step 2: We performed exploratory data analysis with
 visualization of data and compared different variables to
@@ -136,6 +161,10 @@ Step 6: We imported the model summary of our logistic
 regression model using statsmodels.api.
 
 **Final Model Evaluation**
+
+![image](https://user-images.githubusercontent.com/122759737/214117773-1c8ea0e2-14a5-4e90-9f12-b4dc6988faf2.png)
+
+
 After the execution of our Logistic Regression Model we imported the
 Classification Report from sklearn.metrics to get the Precision, recall
 and f1-score of our model.
@@ -150,6 +179,10 @@ As a result, we can say that the model executed successfully with high
 accuracy, precision, recall and f1-score.
 
 **Final Model Report**
+
+![image](https://user-images.githubusercontent.com/122759737/214117951-fb9b8e9f-2167-4fdd-8307-d2077f5f3ed2.png)
+
+
 An ROC-AUC curve determines the performance of the model
 and gives us an idea about how well a model has been
 executed.
@@ -166,6 +199,10 @@ This ROC-AUC curve also shows the True Positive Rate and the
 False Positive rate of the model.
 
 **Model Summary**
+
+![image](https://user-images.githubusercontent.com/122759737/214117973-a57ceb09-95b5-4f7f-80be-68b43d180e67.png)
+
+
 After importing the ROC-AUC curve we imported the model
 summary from statsmodels.api. This model summary determines
 the Coefficients, Standard Errors, z-scores and p-values of the x
