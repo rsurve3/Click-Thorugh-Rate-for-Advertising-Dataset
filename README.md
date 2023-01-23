@@ -7,7 +7,6 @@ project model focuses on determining whether a said person in the
 dataset would click on the ad link on the particular site or not
 depending on different parameters related to the person or the ad.
 
-**Introduction**
 **Executive Summary**
 In the past few years, digital marketing has taken over traditional
 marketing. This is because even if traditional marketing brings a trickle
@@ -34,7 +33,6 @@ on the site and the location from where they are doing so would have
 most significance on their decision. However, our hypothesis is that
 Age, Income and Daily Time spent on Site will affect the most.
 
-**Data Description**
 **Variable Name Data Type Description**
 Daily Time Spent on Site Float Time spent on the site by
 each customer in minutes
@@ -57,7 +55,6 @@ customer goes online
 Clicked on Ad Boolean Whether the customer clicks
 on the ad or not
 
-**Exploratory Data Analysis**
 **1. Daily Time Spent on Site vs Age**
 We can see that a large number of people under
 the age of 30 spend the most time on the internet, which is more
@@ -81,7 +78,6 @@ between 40 to 60 mins. The other one is between the daily
 internet usage of 200 to 250 mins when the time spent on our
 site is between 70 to 90 mins
 
-**Model and Regression Method**
 **Correlation Analysis**
 After importing Corrplot from Seaborn package we can
 understand the correlation between the x variables and the y
@@ -125,7 +121,6 @@ recall, the f1-score and ultimately, accuracy of the model. This
 generated classification report projects the performance of the
 model.
 
-**Discussions and Limitations**
 **Model Overview**
 Step 1: We downloaded the data set from kaggle.com
 Step 2: We performed exploratory data analysis with
