@@ -2,8 +2,7 @@
 
 Abstract
 This project presents a unique way of solving a real life question which
-every company faces in digital marketing. Digital Advertising is a multi
-- billion dollar industry which is growing rapidly with each year. The
+every company faces in digital marketing. Digital Advertising is a multibillion dollar industry which is growing rapidly with each year. The
 project model focuses on determining whether a said person in the
 dataset would click on the ad link on the particular site or not
 depending on different parameters related to the person or the ad.
