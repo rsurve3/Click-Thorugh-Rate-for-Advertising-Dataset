@@ -1,14 +1,14 @@
 # Click-Thorugh-Rate-for-Advertising-Dataset
 
-Abstract
+**Abstract**
 This project presents a unique way of solving a real life question which
 every company faces in digital marketing. Digital Advertising is a multibillion dollar industry which is growing rapidly with each year. The
 project model focuses on determining whether a said person in the
 dataset would click on the ad link on the particular site or not
 depending on different parameters related to the person or the ad.
 
-Introduction
-Executive Summary
+**Introduction**
+**Executive Summary**
 In the past few years, digital marketing has taken over traditional
 marketing. This is because even if traditional marketing brings a trickle
 of business, digital marketing offers a productive and cost-effective
@@ -26,7 +26,7 @@ responds to them. A user’s response to ads is very valuable to every
 ad company because it allows the company to select the ads that are
 most relevant to users.
 
-Hypothesis
+**Hypothesis**
 The report aims to answer the research question of what parameters
 actually affect the customer’s decision of whether to click on the ad or
 not. One would expect the time which the customer spends browsing
@@ -34,8 +34,8 @@ on the site and the location from where they are doing so would have
 most significance on their decision. However, our hypothesis is that
 Age, Income and Daily Time spent on Site will affect the most.
 
-Data Description
-Variable Name Data Type Description
+**Data Description**
+**Variable Name Data Type Description**
 Daily Time Spent on Site Float Time spent on the site by
 each customer in minutes
 Age Integer Age of each customer in
@@ -57,8 +57,8 @@ customer goes online
 Clicked on Ad Boolean Whether the customer clicks
 on the ad or not
 
-Exploratory Data Analysis
-1. Daily Time Spent on Site vs Age
+**Exploratory Data Analysis**
+**1. Daily Time Spent on Site vs Age**
 We can see that a large number of people under
 the age of 30 spend the most time on the internet, which is more
 than 80 minutes. We can also see that the second-highest age
@@ -66,14 +66,14 @@ group is the late '30s, with an average of 40 minutes spent on
 the internet. We can estimate that we should target a group of
 people in their 30s and 40s based on this information.
 
-2. Area Income versus Age
+**2. Area Income versus Age**
 We can determine that people between the
 age range of mid 20’s to their late 30’s who have an income
 between $50k to $70k are the ones who click on the ad the most.
 Our next step should be targeting this group of people so that we
 can increase our exposure as much as possible.
 
-3. Daily Time Spent on Site vs Daily Internet Usage
+**3. Daily Time Spent on Site vs Daily Internet Usage**
 We can see there are 2 major groups of points
 which we can target. One of them is between daily usage of 100
 to 125 mins when the daily time spent on the specific site is
@@ -81,8 +81,8 @@ between 40 to 60 mins. The other one is between the daily
 internet usage of 200 to 250 mins when the time spent on our
 site is between 70 to 90 mins
 
-Model and Regression Method
-Correlation Analysis
+**Model and Regression Method**
+**Correlation Analysis**
 After importing Corrplot from Seaborn package we can
 understand the correlation between the x variables and the y
 variable i.e. - Clicked on Ad.
@@ -92,7 +92,7 @@ The higher correlation shows the higher impact of the x variables
 on the y variable and the lower correlation shows the lower
 impact of the x variables on the y variable.
 
-Variable Selection
+**Variable Selection**
 In our dataset we have 10 variables which are as follows: Daily
 Time Spent on Site, Age, Area Income, Daily Internet Usage, Ad
 Topic Line, City, Male, Country, Timestamp, Clicked on Ad. We
@@ -108,7 +108,7 @@ variable on the x variable, which shows that a change in the
 values of the x variable, will highly affect the values of the y
 variable.
 
-Final Model Description
+**Final Model Description**
 For the final model we have imported a Logistic regression
 model from the from the python package, sklearn.linear_model
 for the prediction of the y variable i.e. “Clicked on Ad”. Since we
@@ -125,8 +125,8 @@ recall, the f1-score and ultimately, accuracy of the model. This
 generated classification report projects the performance of the
 model.
 
-Discussions and Limitations
-Model Overview
+**Discussions and Limitations**
+**Model Overview**
 Step 1: We downloaded the data set from kaggle.com
 Step 2: We performed exploratory data analysis with
 visualization of data and compared different variables to
@@ -140,7 +140,7 @@ model.
 Step 6: We imported the model summary of our logistic
 regression model using statsmodels.api.
 
-Final Model Evaluation
+**Final Model Evaluation**
 After the execution of our Logistic Regression Model we imported the
 Classification Report from sklearn.metrics to get the Precision, recall
 and f1-score of our model.
@@ -154,7 +154,7 @@ The f1-score for 1’s (people who click on ads) is 90%
 As a result, we can say that the model executed successfully with high
 accuracy, precision, recall and f1-score.
 
-Final Model Report
+**Final Model Report**
 An ROC-AUC curve determines the performance of the model
 and gives us an idea about how well a model has been
 executed.
@@ -170,13 +170,13 @@ Roc curve of our logistic regression model above the line is 90%.
 This ROC-AUC curve also shows the True Positive Rate and the
 False Positive rate of the model.
 
-Model Summary
+**Model Summary**
 After importing the ROC-AUC curve we imported the model
 summary from statsmodels.api. This model summary determines
 the Coefficients, Standard Errors, z-scores and p-values of the x
 variables.
 
-Conclusion
+**Conclusion**
 After successful implementation of the logistic regression model
 on the data set, we can understand that we need to target the
 audience with the age group between 30’s and 40’s as who are
