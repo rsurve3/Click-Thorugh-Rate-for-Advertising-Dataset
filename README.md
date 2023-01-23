@@ -80,7 +80,7 @@ which we can target. One of them is between daily usage of 100
 to 125 mins when the daily time spent on the specific site is
 between 40 to 60 mins. The other one is between the daily
 internet usage of 200 to 250 mins when the time spent on our
-site is between 70 to 90 mins.
+site is between 70 to 90 mins
 
 Model and Regression Method
 Correlation Analysis
