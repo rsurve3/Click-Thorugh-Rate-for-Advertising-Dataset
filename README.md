@@ -118,7 +118,6 @@ clicks on an ad or not i.e. 0 or 1. First, we have split the training
 and testing data into 70% as training data and 30% for testing
 data using sklearn.model_selection. After which we have fit the
 x_train and y_train into our model. After executing the logistic
-
 regression model, we have predicted the data using y_test,
 which is 30% of the total data. Later, we presented the
 classification report from the sklearn.metrics package in python.
@@ -126,6 +125,7 @@ Finally from the classification report, we got the precision, the
 recall, the f1-score and ultimately, accuracy of the model. This
 generated classification report projects the performance of the
 model.
+
 Discussions and Limitations
 Model Overview
 Step 1: We downloaded the data set from kaggle.com
@@ -145,13 +145,13 @@ Final Model Evaluation
 After the execution of our Logistic Regression Model we imported the
 Classification Report from sklearn.metrics to get the Precision, recall
 and f1-score of our model.
-● The accuracy of our Logistic Regression Model is 91%
-● The precision for the 0’s (people who do not click on ads) is 89%
-● The precision for the 1’s (people who click on ads) is 93%
-● The recall for 0’s (people who do not click on ads) is 94%
-● The recall for 1’s (people who click on ads) is 87%
-● The f1-score for 0’s (people who do not click on ads) is 91%
-● The f1-score for 1’s (people who click on ads) is 90%
+The accuracy of our Logistic Regression Model is 91%
+The precision for the 0’s (people who do not click on ads) is 89%
+The precision for the 1’s (people who click on ads) is 93%
+The recall for 0’s (people who do not click on ads) is 94%
+The recall for 1’s (people who click on ads) is 87%
+The f1-score for 0’s (people who do not click on ads) is 91%
+The f1-score for 1’s (people who click on ads) is 90%
 As a result, we can say that the model executed successfully with high
 accuracy, precision, recall and f1-score.
 
@@ -190,17 +190,3 @@ daily internet usage of 100 to 125 mins and 200 to 250 mins are
 spending the most time on website and hence have high
 probability of clicking on the ads.
 
-References
-[1] H. Brendan McMahan “Ad Click Prediction: a View from the
-Trenches”
-[2] Matthew Richardson, Ewa Dominowska, Robert Ragno
-“Predicting clicks: estimating the click-through rate for new ads”
-[3] Azin Ashkan, Charles L.A. Clarke, Eugene Agichtein, Qi Guo
-“Estimating Ad Clickthrough Rate through Query Intent Analysis”
-[4] Rohit Kumar; Sneha Manjunath Naik; Vani D Naik; Smita
-Shiralli; Sunil V.G; Moula Husain “Predicting clicks: CTR
-estimation of advertisements using Logistic Regression
-classifier”
-[5] Kuk Lida Lee, Gary M. Ingersoll ”An Introduction to Logistic
-Regression Analysis and Reporting”
-14
